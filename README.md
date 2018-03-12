@@ -1,4 +1,4 @@
-# Frontend Boilerplate
+# FrontendStarter Boilerplate
 
 ## Requirements
 
