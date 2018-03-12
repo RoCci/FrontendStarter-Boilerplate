@@ -1,0 +1,35 @@
+.p-dealerSelectionIcon {
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
+    text-decoration: none;
+}
+
+.p-dealerSelectionIcon:not([data-count="0"]):not([data-count="-1"])::before,
+.p-dealerSelectionIcon[data-count="0"]::before {
+    border: .13rem solid var(--dark-grey); /* 2px */
+    border-radius: 50%;
+    color: var(--white);
+    content: attr(data-count);
+    font-size: 1.38rem; /* 22px */
+    font-weight: bold;
+    height: var(--dealerSelectionIcon-badge-size);
+    line-height: var(--dealerSelectionIcon-badge-size);
+    position: absolute;
+    right: -1.25rem; /* -20px */
+    text-align: center;
+    top: -1.25rem; /* -20px */
+    width: var(--dealerSelectionIcon-badge-size);
+}
+
+.p-dealerSelectionIcon:not([data-count="0"]):not([data-count="-1"])::before {
+    background: var(--active-color);
+}
+
+.p-dealerSelectionIcon[data-count="0"]::before {
+    background: var(--error-color);
+}
+
+.p-dealerSelectionIcon__image {
+    display: block;
+}

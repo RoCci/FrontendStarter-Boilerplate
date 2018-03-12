@@ -1,0 +1,36 @@
+.p-personalData {
+    padding-bottom: 1.25rem; /* 20px */
+}
+
+.p-personalData__title {
+    color: #000;
+    font-family: var(--font-family-headline);
+    font-size: 32px;
+    line-height: 120%;
+    margin: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.p-personalData::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.p-personalData__textboxes:not(:last-child) {
+    margin-bottom: var(--col-margin-bottom);
+}
+
+@media (--tablet) {
+    .p-personalData__textboxes {
+        flex: 0 0 48%;
+        margin-bottom: 0 !important;
+    }
+
+    .p-personalData__text-wrapper {
+        align-items: flex-end;
+        display: flex;
+        justify-content: space-between;
+    }
+}

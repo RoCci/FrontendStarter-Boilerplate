@@ -1,0 +1,14 @@
+  <form class="m-mainAuthForm js-mainAuthForm">
+    <div class="js-error-container a-error-container a-error-container--hidden">
+      {{{include this path="errors"}}}
+    </div>
+    <div class="a-container">
+      {{{include this path="partnerData"}}}
+    </div>
+    <div class="a-container">
+      <input type="button" class="a-button a-button--static-on-non-mobile" value="{{buttonText}}" name="button_Send">
+    </div>
+    <div class="a-container">
+      <a class="a-link noAccessDataLink" id="open" >{{noAccessDataLink.text}}</a>
+    </div>
+  </form>

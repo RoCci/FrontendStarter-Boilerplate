@@ -1,0 +1,5 @@
+.a-text {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    line-height: 1.38rem; /* 22px */
+}

@@ -1,0 +1,9 @@
+.p-errors {
+    background-color: var(--error-color);
+    font-size: 1.13rem;
+    font-weight: var(--font-weight);
+    line-height: 1.38rem;
+    margin-bottom: 1rem;
+    margin-top: .7rem;
+    max-width: 47.94rem;
+}

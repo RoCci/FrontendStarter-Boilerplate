@@ -1,0 +1,14 @@
+.a-radiobutton-description {
+    height: 2.81rem; /* 45px */
+    padding: .63rem .63rem .5rem; /* 10px 10px 8px */
+    width: 100%;
+}
+
+.a-radiobutton-description--error .a-radiobutton-description__label {
+    color: var(--error-color);
+}
+
+.a-radiobutton-description__label {
+    color: var(--white);
+    font-size: .94rem;
+}

@@ -1,0 +1,34 @@
+.a-radiobutton {
+    background-color: var(--input-background-color);
+    border: none;
+    box-shadow: none;
+    color: var(--input-color);
+    font-size: .94rem;
+    height: 2.81rem; /* 45px */
+    outline: 0;
+    padding: .9rem .63rem .5rem; /* ~14.5px 10px 8px */
+    position: relative;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    width: 100%;
+}
+
+.a-radiobutton__label {
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    padding: .9rem .63rem .5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.a-radiobutton__input {
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+.a-radiobutton__input:checked + .a-radiobutton__label {
+    background-color: var(--active-color);
+    color: var(--white);
+}

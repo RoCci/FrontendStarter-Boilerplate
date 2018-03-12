@@ -1,0 +1,14 @@
+.p-checkSelection {
+}
+
+.p-checkSelection__title {
+    font-family: var(--font-family);
+    font-size: 1.19rem; /* 19px */
+    margin: 0;
+    padding-bottom: 1.25rem; /* 20px */
+    padding-top: 1.38rem; /* 22px */
+    position: relative;
+}
+
+.p-checkSelection__text {
+}

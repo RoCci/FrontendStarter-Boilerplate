@@ -1,0 +1,20 @@
+<script>
+    var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+        navigator.language ||   // All browsers
+        navigator.userLanguage; // IE <= 10
+
+    var userLang =  language.substring(0,2);
+
+    switch(userLang){
+        case 'de':
+            window.location.href = './de/';
+            break;
+        case 'en':
+            window.location.href = './en/';
+            break;
+        default:
+            // if it's something else fall back to the default
+            window.location.href = './en/';
+            break;
+    }
+</script>

@@ -1,0 +1,14 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row:last-child .col:last-child {
+    margin-bottom: 0;
+}
+
+@media (--tablet) {
+    .row:not(:last-child) {
+        margin-bottom: var(--col-margin-bottom);
+    }
+}

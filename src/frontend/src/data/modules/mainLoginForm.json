@@ -1,0 +1,14 @@
+{
+    "resourceType": "modules/mainLoginForm",
+    "errors": {
+        "json": "partials/errors"
+    },
+    "loginData": {
+        "json": "partials/loginData"
+    },
+    "buttonText": "Send button",
+    "forgottenPassword": {
+      "text": "Password reset"
+    },
+    "requireText": " * required fields"
+}

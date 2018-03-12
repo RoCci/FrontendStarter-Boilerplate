@@ -1,0 +1,41 @@
+<div class="page {{#if pageName}} {{pageName}} {{/if}}">
+  {{#if header}}
+    <header class="page__header">
+      {{{include this path="header" resourceType="/libs/foundation/components/parsys/parsys"}}}
+    </header>
+  {{/if}}
+  {{#if heroImage}}
+    <section class="page_partner--image">
+      {{{include this path="heroImage" resourceType="/libs/foundation/components/parsys/parsys"}}}
+    </section>
+  {{/if}}
+  {{#if navigation}}
+    <section class="main_navigation">
+      {{{include this path="navigation" resourceType="/libs/foundation/components/parsys/parsys"}}}
+    </section>
+  {{/if}}
+  <main class="page__main">
+  {{#if mainLeftCol}}
+      {{{include this path="mainLeftCol" resourceType="/libs/foundation/components/parsys/parsys"}}}
+  {{/if}}
+  {{#if mainRightCol}}
+    {{{include this path="mainRightCol" resourceType="/libs/foundation/components/parsys/parsys"}}}
+
+  {{/if}}
+  {{#if aboutText}}
+
+      {{{include this path="aboutText" resourceType="/libs/foundation/components/parsys/parsys"}}}
+
+  {{/if}}
+
+  </main>
+  {{#if footer}}
+    <footer class="page__footer">
+      {{{include this path="footer" resourceType="/libs/foundation/components/parsys/parsys"}}}
+    </footer>
+  {{/if}}
+  {{#if cookieLayer}}
+      {{{include this path="cookieLayer" resourceType="/libs/foundation/components/parsys/parsys"}}}
+  {{/if}}
+    <div class="overlay--bg-full" id="overlay"></div>
+</div>

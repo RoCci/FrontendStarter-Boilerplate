@@ -1,0 +1,23 @@
+{
+  "resourceType": "modules/footer",
+  "footer": {
+    "navElements": [
+      {
+        "alias": "Frontend Boilerplate",
+        "class": "blockDisplay"
+      },
+      {
+        "id": "impress",
+        "alias": "Readme",
+        "class": "blockDisplay noPipe"
+      }
+    ],
+    "metapages": [
+      {
+        "class": "impress",
+        "title": "FrontendBoilerplate",
+        "text": ""
+      }
+    ]
+  }
+}

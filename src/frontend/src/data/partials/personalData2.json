@@ -1,0 +1,144 @@
+{
+    "resourceType": "partials/personalData2",
+    "title": "FrontendBoilerplate",
+    "text": "",
+    "items": [
+        [
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "selectbox",
+                                "select": {
+                                    "hasPlaceholder": true,
+                                    "id": "gender",
+                                    "name": "gender",
+                                    "options": [
+                                        {
+                                            "text": "Anrede*",
+                                            "attr": "disabled selected"
+                                        },
+                                        {
+                                            "text": "Frau",
+                                            "value": "f"
+                                        },
+                                        {
+                                            "text": "Herr",
+                                            "value": "m"
+                                        }
+                                    ]
+                                },
+                                "label": {
+                                    "value": "Anrede",
+                                    "class": "hidden"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "textbox",
+                                "input": {
+                                    "type": "text",
+                                    "hasPlaceholder": true,
+                                    "id": "firstname"
+                                },
+                                "label": {
+                                    "value": "Vorname"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "textbox",
+                                "input": {
+                                    "type": "text",
+                                    "hasPlaceholder": true,
+                                    "id": "lastname"
+                                },
+                                "label": {
+                                    "value": "Nachname"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "textbox",
+                                "input": {
+                                    "type": "text",
+                                    "hasPlaceholder": true,
+                                    "id": "email"
+                                },
+                                "label": {
+                                    "value": "E-Mail-Adresse"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "textbox",
+                                "input": {
+                                    "type": "text",
+                                    "hasPlaceholder": true,
+                                    "id": "paasword"
+                                },
+                                "label": {
+                                    "value": "Passwort"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "textbox",
+                                "input": {
+                                    "type": "text",
+                                    "hasPlaceholder": true,
+                                    "id": "passwordConfirm"
+                                },
+                                "label": {
+                                    "value": "Passwort wiederholen"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    ]
+}

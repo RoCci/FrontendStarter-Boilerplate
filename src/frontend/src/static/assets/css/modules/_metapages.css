@@ -1,0 +1,8 @@
+.metapages-page {
+    display: none;
+}
+
+.metapages-page p a {
+    color: var(--active-color);
+    text-decoration: none;
+}

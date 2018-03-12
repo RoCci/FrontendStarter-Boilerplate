@@ -1,0 +1,74 @@
+.a-checkbox {
+    background-color: var(--white);
+    font-size: var(--input-font-size);
+    height: 2.81rem; /* 45px */
+    line-height: calc(2.81rem / 2); /* 22.5px */
+    padding: .44rem .44rem .44rem 2.81rem; /* 7px 7px 7px 45px */
+    position: relative;
+    width: 100%;
+}
+
+.a-checkbox:hover {
+    background-color: var(--checkbox-background-color-hover);
+}
+
+.a-checkbox:hover .icon-check {
+    background-position-y: -966px;
+}
+
+.a-checkbox--auto-height {
+    height: auto;
+    line-height: 1.15;
+}
+
+.a-checkbox--error .a-checkbox__headline,
+.a-checkbox--error .a-checkbox__text {
+    color: var(--error-color);
+    margin-bottom: .25rem; /* 4px */
+    margin-top: .25rem; /* 4px */
+}
+
+.a-checkbox__headline {
+    font-size: 1.25rem; /* 20px */
+    font-weight: bold;
+}
+
+.a-checkbox__headline,
+.a-checkbox__text {
+    color: var(--checkbox-color);
+    margin-bottom: .25rem; /* 4px */
+    margin-top: .25rem; /* 4px */
+}
+
+.a-checkbox__overlay {
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.a-checkbox__overlay:checked:hover .a-checkbox {
+    background-color: var(--checkbox-background-color-hover-selected);
+}
+
+.a-checkbox__overlay:active .icon-check,
+.a-checkbox__input:checked ~ .a-checkbox__icon-container .icon-check {
+    background-position-y: -641px;
+}
+
+.a-checkbox__input {
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+.a-checkbox__icon-container {
+    border-right: .13rem solid var(--checkbox-color); /* 2px */
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2.19rem; /* 35px */
+}

@@ -1,0 +1,23 @@
+{
+    "proxyDir": "express-proxy/",
+    "frontendDir": "../",
+    "srcDir": "frontend/src/",
+    "gulpTaskDir": "gulpfile.babel.js/tasks/",
+    "distDir": "frontend/dist/",
+    "assetDir": "static/assets/",
+    "assetRewriteRegex": "^(\/assets\/)[^\/css|^\/fonts|^\/img|^\/js]+\/(.+)$",
+    "schemaDir": "schema/",
+    "dataDir": "data/",
+    "viewDir": "views/",
+    "routes": {
+        "development": [
+            {
+                "path": "*",
+                "dataSource": {
+                    "type": "file"
+                }
+            }
+        ]
+    },
+    "autoprefixer": "> 5% in DE, last 2 versions, Explorer >= 10, iOS >= 8"
+}

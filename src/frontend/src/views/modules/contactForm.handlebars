@@ -1,0 +1,107 @@
+<div hook="anfrage-wrapper-inner">
+    <h2 class="anfrage-bottom-wrapper__subline">Ihre Kontaktdaten</h2>
+    <p class="form-error" hook="form-error"></p>
+    <div class="anfrage-bottom-wrapper__inner">
+        <div class="anfrage-forms anfrage-bottom-wrapper__item">
+            <form class="form" id="contact-form" action="https://christmas-greetings.vans.mercedes-benz.com/lpp/contact/sendContactData" method="post">
+                <div class="form-container-contact">
+                    <div class="form-radio--container" data-onid="1,2" hook="anfrage-form-item">
+                        <label>Anrede</label>
+                        <div class="form-gender">
+                            <select name="gender" required>
+                                <option value="" selected disabled>bitte wählen</option>
+                                <option value="m">Herr</option>
+                                <option value="f">Frau</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-radio--container" data-onid="1,2" hook="anfrage-form-item">
+                        <label>Titel</label>
+                        <div class="form-titel">
+                            <select name="title">
+                                <option selected>bitte wählen</option>
+                                <option value="Dr.">Dr.</option>
+                                <option value="Prof.">Prof.</option>
+                                <option value="Prof. Dr.">Prof. Dr.</option>
+                                <option value="Prof. Dr. Dr.">Prof. . Dr.</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="contact-input--50" name="firstname" type="text" placeholder="Vorname *" id='' data-onid="1,2" hook="anfrage-form-item" required>
+                    <input class="contact-input--50" name="lastname" type="text" placeholder="Nachname *" id='' data-onid="1,2" hook="anfrage-form-item" required>
+                    <input type="text" name="companyName" placeholder="Firma" id='' data-onid="1,2" hook="anfrage-form-item">
+                    <input class="contact-input--75" name="street" type="text" placeholder="Straße *" id='' data-onid="1,2" hook="anfrage-form-item" required>
+                    <input class="contact-input--25" name="streetnumber" type="text" placeholder="Nr. *" id='' data-onid="1,2" hook="anfrage-form-item" required>
+                    <input class="contact-input--25" name="zipCode" type="text" placeholder="PLZ *" id='' data-onid="1,2" hook="anfrage-form-item" required>
+                    <input class="contact-input--75" name="city" type="text" placeholder="Ort *" id='' data-onid="1,2" hook="anfrage-form-item" required>
+                    <input type="text" name="addressAddition" placeholder="Adresszusatz" id='' data-onid="1,2" hook="anfrage-form-item">
+                    <input class="contact-input--50" name="email" type="email" placeholder="E-Mail-Adresse *" id='' data-onid="1,3" hook="anfrage-form-item" required>
+                    <input class="contact-input--50" name="telephoneNumber" type="tel" placeholder="Telefonnummer *" id='' data-onid="2" hook="anfrage-form-item" required>
+
+                    <textarea class="contact-textarea" name="message" placeholder="Schreibe uns eine Nachricht ..." data-onid="1,2" hook="anfrage-form-item" rows="4"></textarea>
+
+                </div>
+
+                <div class="form-container-service-partner">
+                    <input class="contact-input-hidden" name="outletCode" type="text" id='outletCode' data-onid="1,2" hook="anfrage-form-item" required>
+                    <div class="service-partner-choise" id="pick-partner">Bitte wählen Sie noch einen Service-Partner aus.</div>
+                </div>
+
+                <div class="form-checkbox--group" data-onid="1,2" hook="anfrage-form-item">
+                    <h3>Datenschutzrechtliche Einwilligungserklärung</h3>
+                    <label>Wir würden Sie gerne weiterhin beraten, betreuen und informieren. Dafür benötigen wir Ihre datenschutzrechtliche Einwilligung in die Speicherung und Nutzung Ihrer Daten.</label>
+                    <a class="form-checkbox-data-link">> Datenschutzrechtliche Einwilligung lesen</a>
+                    <label class="form-checkbox-statement">Ich habe die Einwilligungserklärung gelesen und bin mit der Speicherung und Nutzung meiner Daten einverstanden.</label>
+                    <label>Sie können mich auf folgende Weise kontaktieren*:</label>
+                </div>
+
+                <div class="form-contact-variante">
+                    <div class="form-contact-variante-container">
+                        <label>per Telefon</label>
+                        <span>Nein</span>
+                        <div class="form-switch-container">
+                            <label for="switch-telefon">
+                                <input type="checkbox" id="switch-telefon" name="channelStatusPhone" required>
+                                <span class="switch"></span>
+                                <span class="toggle"></span>
+                            </label>
+                        </div>
+                        <span>Ja</span>
+                    </div>
+                    <div class="form-contact-variante-container">
+                        <label>per elektronischer Post</label>
+                        <span>Nein</span>
+                        <div class="form-switch-container">
+                            <label for="switch-mail">
+                                <input type="checkbox" id="switch-mail" name="channelStatusEmail" required>
+                                <span class="switch"></span>
+                                <span class="toggle"></span>
+                            </label>
+                        </div>
+                        <span>Ja</span>
+                    </div>
+                    <div class="form-contact-variante-container">
+                        <label>per Post</label>
+                        <span>Nein</span>
+                        <div class="form-switch-container">
+                            <label for="switch-post">
+                                <input type="checkbox" id="switch-post" name="channelStatusPost" required>
+                                <span class="switch"></span>
+                                <span class="toggle"></span>
+                            </label>
+                        </div>
+                        <span>Ja</span>
+                    </div>
+                </div>
+                <div class="form-note">Bitte füllen Sie die mit * gekennzeichneten Felder aus.</div>
+                <input type="hidden" value="" name="Anfrage_DataId" hook="form-data-id">
+                <input type="submit" value="Daten absenden" id='contact-send-button'>
+
+                <div>
+                    <h2>LogistikPartner Hotline.</h2>
+                    <p>Sie haben Fragen zum LogistikPartnerProgramm von Mercedes-Benz? Wir helfen Ihnen gerne telefonisch unter <strong>0800 5 22 11 22</strong> weiter (erreichbar von Mo-Fr 8:00 Uhr bis 18:00 Uhr).</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

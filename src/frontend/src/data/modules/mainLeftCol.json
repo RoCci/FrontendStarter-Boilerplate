@@ -1,0 +1,15 @@
+{
+    "resourceType": "modules/mainLeftCol",
+    "mainImage": {
+      "json": "modules/mainImage"
+    },
+    "mainFlag": {
+      "json": "modules/mainFlag"
+    },
+    "mainText": {
+      "json": "modules/mainText"
+    },
+    "mainForm": {
+      "json": "modules/mainForm"
+    }
+}

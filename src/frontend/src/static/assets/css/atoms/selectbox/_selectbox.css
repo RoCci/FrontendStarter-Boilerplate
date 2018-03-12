@@ -1,0 +1,70 @@
+.a-selectbox {
+    font-size: var(--input-font-size);
+    position: relative;
+    width: 100%;
+}
+
+.a-selectbox__input {
+    -webkit-appearance: none;
+    background: #fff no-repeat center right 10px;
+    background-image: url("/assets/img/icons/svg/down_grey.svg");
+    background-size: 17px 10px;
+    border: 1px solid #999;
+    border-radius: 0;
+    box-shadow: none;
+    color: var(--input-color);
+    height: 48px;
+    outline: 0;
+    padding: 12px 12px 4px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    width: 100%;
+}
+
+.a-selectbox__input:hover,
+.a-selectbox__input:focus,
+.a-selectbox--error .a-selectbox__input:hover,
+.a-selectbox--error .a-selectbox__input:focus {
+    border: .13rem solid var(--active-color); /* 2px */
+    padding-left: .5rem; /* 8px */
+}
+
+.a-selectbox--error .a-selectbox__input {
+    border: .13rem solid var(--error-color);
+}
+
+.a-selectbox__input:focus + .a-selectbox__label {
+    color: var(--active-color);
+    opacity: 1;
+    top: -.19rem; /* -3px */
+}
+
+.a-selectbox__input::placeholder {
+    color: var(--light-grey);
+    opacity: .7;
+}
+
+.a-selectbox--error .a-selectbox__input::placeholder {
+    color: var(--error-color);
+    opacity: 1;
+}
+
+.a-selectbox__input:focus::placeholder,
+.a-selectbox--error .a-selectbox__input:focus::placeholder {
+    color: transparent;
+}
+
+.a-selectbox__label {
+    color: var(--input-color);
+    font-size: .75rem; /* 12px */
+    left: .63rem; /* 10px */
+    opacity: 0;
+    padding: .31rem 0; /* 5px */
+    position: absolute;
+    top: .63rem; /* 10px */
+    transition: all .2s ease-in-out;
+}
+
+.a-selectbox__label.show {
+    opacity: 1;
+    top: -3px;
+}

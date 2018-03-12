@@ -1,0 +1,20 @@
+.p-dealerSelected {
+    bottom: 0;
+    display: block;
+    left: 0;
+    overflow-y: scroll;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.p-dealerSelected--hidden {
+    display: none;
+}
+
+@media (--desktop) {
+    .p-dealerSelected {
+        right: -1rem; /* Fix scrollbar issue, overlapping the checkboxes */
+    }
+}

@@ -1,0 +1,66 @@
+.a-textbox {
+    font-size: var(--input-font-size);
+    position: relative;
+    width: 100%;
+}
+
+.a-textbox__input {
+    background-color: var(--input-background-color);
+    border: 1px solid #999;
+    box-shadow: none;
+    color: var(--input-color);
+    height: 48px;
+    outline: 0;
+    padding: 12px 12px 4px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    width: 100%;
+}
+
+.a-textbox__input:hover,
+.a-textbox__input:focus,
+.a-textbox--error .a-textbox__input:hover,
+.a-textbox--error .a-textbox__input:focus {
+    border: .13rem solid var(--active-color); /* 2px */
+    padding-left: .5rem; /* 8px */
+}
+
+.a-textbox--error .a-textbox__input {
+    border: .13rem solid var(--error-color);
+}
+
+.a-textbox__input:focus + .a-textbox__label {
+    color: var(--active-color);
+    opacity: 1;
+    top: -.19rem; /* -3px */
+}
+
+.a-textbox__input::placeholder {
+    color: var(--light-grey);
+    opacity: .7;
+}
+
+.a-textbox--error .a-textbox__input::placeholder {
+    color: var(--error-color);
+    opacity: 1;
+}
+
+.a-textbox__input:focus::placeholder,
+.a-textbox--error .a-textbox__input:focus::placeholder {
+    color: transparent;
+}
+
+.a-textbox__label {
+    color: var(--input-color);
+    font-size: .75rem; /* 12px */
+    left: .63rem; /* 10px */
+    opacity: 0;
+    padding: .31rem 0; /* 5px */
+    position: absolute;
+    top: .63rem; /* 10px */
+    transition: all .2s ease-in-out;
+}
+
+.a-textbox__label.show {
+    opacity: 1;
+    top: -3px;
+}

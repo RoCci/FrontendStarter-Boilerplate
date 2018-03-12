@@ -1,0 +1,11 @@
+{
+    "resourceType": "modules/heroImage",
+    "image_D": {
+        "src": "/assets/img/hero.jpg",
+        "alt": "heroImage"
+    },
+    "image_M": {
+        "src": "/assets/img/hero_mobile.jpg",
+        "alt": "heroImage"
+    }
+}

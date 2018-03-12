@@ -1,0 +1,18 @@
+.a-label {
+    font-size: var(--input-font-size);
+    padding: .44rem; /* 7px */
+    position: relative;
+    width: 100%;
+}
+
+.a-label__headline {
+    font-size: 1.25rem; /* 20px */
+    font-weight: bold;
+}
+
+.a-label__headline,
+.a-label__text {
+    color: var(--white);
+    margin-bottom: .25rem; /* 4px */
+    margin-top: .25rem; /* 4px */
+}

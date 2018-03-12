@@ -1,0 +1,17 @@
+  <form class="m-mainLoginForm js-mainLoginForm">
+    <div class="js-error-container a-error-container a-error-container--hidden">
+      {{{include this path="errors"}}}
+    </div>
+    <div class="a-container">
+      {{{include this path="loginData"}}}
+    </div>
+    <div class="a-container">
+      <input type="button" class="a-button a-button--static-on-non-mobile" value="{{buttonText}}" name="button_Send">
+    </div>
+    <div class="a-container">
+      <a class="a-link forgottenPassword" href="{{forgottenPassword.path}}">{{forgottenPassword.text}}</a>
+    </div>
+    <div class="a-container">
+      <p class="m-mainForm__require-text">{{requireText}}</p>
+    </div>
+  </form>

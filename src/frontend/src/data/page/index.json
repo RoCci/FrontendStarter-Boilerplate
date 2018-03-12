@@ -1,0 +1,35 @@
+{
+  "buildNumber": "0.0.0",
+  "resourceType": "page/page",
+  "plainTextTitle": "FrontendBoilerplate",
+  "pageName": "pageIndex js-cookieLayer",
+  "meta": {
+    "description": "FrontendBoilerplate",
+    "canonicalLink": "#"
+  },
+  "header": {
+    "header": {
+      "json": "modules/header"
+    }
+  },
+  "mainLeftCol": {
+      "mainLeftCol": {
+    "json": "modules/mainLeftCol"
+  }
+  },
+  "mainRightCol": {
+      "mainRightCol": {
+    "json": "modules/mainRightCol"
+  }
+  },
+  "footer": {
+    "footer": {
+      "json": "modules/footer"
+    }
+  },
+  "cookieLayer": {
+    "cookieLayer": {
+      "json": "partials/cookieLayer"
+    }
+  }
+}

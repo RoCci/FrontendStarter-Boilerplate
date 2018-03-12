@@ -1,0 +1,30 @@
+h2.p-partnerData__title,
+h2.p-loginData__title {
+    color: #000;
+    font-family: CorporateSRegular, Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.m-mainRightCol a.a-link {
+    color: var(--active-color);
+    text-decoration: none;
+}
+
+.m-mainRightCol a.forgottenPassword,
+.m-mainRightCol a.noAccessDataLink {
+    background: url("/assets/img/icons/svg/forward.svg") 4px 2px no-repeat;
+    background-size: 20px 20px;
+    display: block;
+    font-size: 18px;
+    padding-left: 28px;
+}
+
+.m-mainRightCol a.a-link:hover {
+    color: var(--hover-color);
+    text-decoration: none;
+}
+
+.m-mainLoginForm .p-loginData {
+    margin-top: 30px;
+}

@@ -1,0 +1,54 @@
+<section class="js-personalData p-personalData">
+    <h2 class="p-personalData__title">{{title}}</h2>
+    <p>{{text}}</p>
+    <div class="p-personalData__text-wrapper">
+        {{#each items}}
+            <div class="p-personalData__textboxes">
+                {{#each this}}
+                    <div class="row">
+                        {{#each row}}
+                            {{#with col}}
+                                <div class="col col--{{size}}">
+                                    {{#with div}}
+                                        <div class="js-{{class}} a-{{class}}">
+                                            {{#if input}}
+                                                <input class="js-{{class}}__input a-{{class}}__input"
+                                                    {{#with input}}
+                                                       type="{{type}}"
+                                                           {{#if hasPlaceholder}}
+                                                       placeholder="{{id}}*"
+                                                           {{/if}}
+                                                       id="{{id}}"
+                                                           {{#if name}}
+                                                       name="{{name}}"
+                                                           {{/if}}
+                                                           {{#if size}}
+                                                       size="{{size}}"
+                                                       maxlength="{{size}}"
+                                                           {{/if}}
+                                                    {{/with}}
+                                                >
+                                            {{/if}}
+                                            {{#if select}}
+                                                <select class="js-{{class}}__input a-{{class}}__input">
+                                                    {{#each select.options}}
+                                                        <option value="{{value}}" {{#if attr}}{{attr}}{{/if}}>{{text}}</option>  {{/each}}
+                                                </select>
+                                            {{/if}}
+                                            <label class="js-{{class}}__label a-{{class}}__label {{#if label.class}}{{label.class}}{{/if}}"
+                                                {{#if input}}
+                                                   for="{{input.id}}"
+                                                {{/if}}>
+                                                {{label.value}}
+                                            </label>
+                                        </div>
+                                    {{/with}}
+                                </div>
+                            {{/with}}
+                        {{/each}}
+                    </div>
+                {{/each}}
+            </div>
+        {{/each}}
+    </div>
+</section>

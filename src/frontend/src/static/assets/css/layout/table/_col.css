@@ -1,0 +1,34 @@
+.col {
+    display: flex;
+    margin-bottom: var(--col-margin-bottom);
+    margin-right: 0;
+    position: relative;
+    width: 100%;
+}
+
+.col--one-third {
+    flex-basis: calc((100% - 1rem) / 3);
+}
+
+.col--two-thirds {
+    flex-basis: calc((100% - .25rem) / 3 * 2);
+}
+
+.col--half-flex,
+.col--one-third-flex {
+    flex-basis: 100%;
+}
+
+@media (--tablet) {
+    .col {
+        margin-bottom: 0;
+    }
+
+    .col--half-flex {
+        flex-basis: calc((100% - var(--col-space-between)) / 2);
+    }
+
+    .col--one-third-flex {
+        flex-basis: calc((100% - 1rem) / 3);
+    }
+}

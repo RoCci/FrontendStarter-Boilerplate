@@ -1,0 +1,11 @@
+.a-container {
+    background-color: var(--white);
+    padding: 10px 20px 0;
+}
+
+@media (--phone-up) {
+    .a-container {
+        background-color: var(--white);
+        padding: 10px 25px 0;
+    }
+}

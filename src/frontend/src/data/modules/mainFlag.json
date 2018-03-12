@@ -1,0 +1,14 @@
+{
+    "resourceType": "modules/mainFlag",
+    "title": {
+        "line1": "Example",
+        "line2": "Example Flag",
+        "line3": ""
+    },
+    "titlePartner": {
+      "line1": "Example",
+      "line2": "Example Flag",
+      "line3": ""
+    },
+    "text": "Example Flag description"
+  }

@@ -1,0 +1,5 @@
+{{#each this }}
+    {{#if this.resourceType}}
+        {{include @../root resourceType=this.resourceType path=@key}}
+    {{/if}}
+{{/each}}

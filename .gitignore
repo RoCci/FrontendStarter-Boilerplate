@@ -1,0 +1,18 @@
+# OSX
+.DS_Store
+
+# Intellij Idea
+.idea/
+*.iml
+
+# node
+/src/logs
+/src/npm-debug.log
+/src/node_modules/
+/npm-debug.log
+
+# dist
+src/frontend/dist/data/
+src/frontend/dist/views/
+# generated assets
+/src/frontend/src/views/page/icons.handlebars

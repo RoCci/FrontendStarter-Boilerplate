@@ -1,0 +1,16 @@
+{
+    "pages": [
+        {
+            "file": "index.html",
+            "url": "http://localhost:3000/"
+        },
+        {
+            "file": "about.html",
+            "url": "http://localhost:3000/about"
+        },
+        {
+            "file": "404.html",
+            "url": "http://localhost:3000/404"
+        }
+    ]
+}

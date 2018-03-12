@@ -1,0 +1,19 @@
+.p-dealerSelection {
+    opacity: 1;
+}
+
+.p-dealerSelection--in-back {
+    opacity: .25;
+}
+
+.p-dealerSelection__address {
+}
+
+.p-dealerSelection__distance {
+    font-size: 1.5rem; /* 24px */
+    text-align: right;
+}
+
+.p-dealerSelection__parts {
+    display: flex;
+}

@@ -1,0 +1,28 @@
+{
+    "resourceType": "partials/partnerData",
+    "title": "Kostenlos registrieren",
+    "items": [
+        [
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "textbox",
+                                "input": {
+                                    "type": "text",
+                                    "hasPlaceholder": true,
+                                    "id": "Unternehmer-Abrechnungsnummer"
+                                },
+                                "label": {
+                                    "value": "Unternehmer-Abrechnungsnummer*"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    ]
+}

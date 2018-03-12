@@ -1,0 +1,38 @@
+/**
+ * icons
+ */
+
+.icon-container {
+    display: none;
+    height: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+}
+
+.icon {
+    display: block;
+    fill: inherit;
+    height: 100%;
+    pointer-events: none;
+    width: 100%;
+}
+
+.icon--centered {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icon-check {
+    background: url("/assets/img/icons/icons.png") no-repeat 0 -480px;
+    height: .69rem; /* 11px */
+    left: .63rem; /* 10px */
+    margin-top: -.34rem; /* 5.5px */
+    position: absolute;
+    top: 50%;
+    width: .81rem /* 13px */
+}

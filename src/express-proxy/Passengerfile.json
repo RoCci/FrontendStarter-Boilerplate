@@ -1,0 +1,4 @@
+{
+    "startup_file": "bin/www",
+    "static_files_dir": "../frontend/dist/static/"
+}

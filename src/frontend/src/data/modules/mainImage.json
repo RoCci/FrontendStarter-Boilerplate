@@ -1,0 +1,11 @@
+{
+    "resourceType": "modules/mainImage",
+    "image_D": {
+        "src": "/assets/img/mainImage.jpg",
+        "alt": "mainImage"
+    },
+    "image_M": {
+        "src": "/assets/img/mainImage_mobile.jpg",
+        "alt": "mainImage_mobile"
+    }
+}

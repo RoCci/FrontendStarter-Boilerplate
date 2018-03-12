@@ -1,0 +1,12 @@
+{
+    "resourceType": "modules/header",
+    "title": "FrontendBoilerplate",
+    "image_Logo": {
+        "src": "/assets/img/logo_fb.svg",
+        "alt": "Logo FrontendBoilerplate"
+    },
+    "image_LogoM": {
+        "src": "/assets/img/logo_fb_mobile.svg",
+        "alt": "Logo FrontendBoilerplate"
+    }
+}

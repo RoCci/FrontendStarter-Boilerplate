@@ -1,0 +1,66 @@
+/*
+ * base setup and variables
+ */
+
+:root {
+    /* colors */
+    --white: #fff;
+    --dark-grey: #333;
+    --grey: #3c3c3c;
+    --light-grey: #666;
+    --lighter-grey: #999;
+
+    /* general */
+    --active-color: #00adef;
+    --hover-color: #009bd6;
+    --error-color: #9f0102;
+    --background-color: #000;
+    --headline-color: var(--white);
+    --text-color: #000;
+    --font-size: 16px; /* 18px */
+    --font-weight: 400;
+    --font-family-headline: Open Sans, sans-serif;
+    --font-family: Open Sans, sans-serif;
+
+    /* columns */
+    --col-margin-bottom: .5rem; /* 8px */
+    --col-space-between: 4%;
+
+    /* container */
+    --container-background-color: #282828;
+
+    /* inputs */
+    --input-color: var(--dark-grey);
+    --input-background-color: var(--white);
+    --input-font-size: .94rem; /* 15px */
+
+    /* checkboxes */
+    --checkbox-color: var(--light-grey);
+    --checkbox-background-color-hover: #e6e6e6;
+    --checkbox-background-color-hover-selected: #d4d4d4;
+
+    /* buttons */
+    --button-color: var(--white);
+    --button-background: var(--active-color);
+    --button-background-hover: #009bd6;
+    --button-sec-color: var(--active-color);
+    --button-sec-background: #333 linear-gradient(#333, #282828);
+    --button-sec-background-hover: #282828 linear-gradient(#282828, #000);
+
+    /* other */
+    --dealerSelectionIcon-badge-size: 1.88rem; /* 30px */
+
+    /* page layout */
+    --max-page-width: 1234px;
+    --min-page-width: 20rem; /* 320px */
+}
+
+/*
+    define em based media queries - read more about em'based queries
+    @ https://zellwk.com/blog/media-query-units/
+*/
+@custom-media --phone screen and (min-width: 320px);
+@custom-media --phone-up screen and (min-width: 480px);
+@custom-media --tablet screen and (min-width: 768px);
+@custom-media --desktop screen and (min-width: 980px);
+@custom-media --desktop-large screen and (min-width: 1280px);

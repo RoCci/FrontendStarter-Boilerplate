@@ -1,0 +1,25 @@
+{{#each footer.metapages}}
+    <section class="metapages-page metapages--overlay" id="metapage-{{class}}">
+
+        <div class="overlay-container">
+
+            <div class="overlay-container--content">
+              <a class="button-white" id="closeMeta"></a>
+                <h1>{{title}}</h1>
+                <p>{{text}}</p>
+            </div>
+        </div>
+    </section>
+{{/each}}
+<nav class="m-top--anchor">
+    <a href="#">Top</a>
+</nav>
+<div class="m-footer">
+    <nav>
+        {{#each footer.navElements}}
+            {{#if id}}<a class="a-link a-link--footer{{#if class}} {{class}}{{/if}}"
+                      id="openMeta"   data-url="metapage-{{id}}">{{alias}}</a> {{else}}
+                <span class="a-link {{#if class}} {{class}}{{/if}}">{{alias}}</span> {{/if}}
+        {{/each}}
+    </nav>
+</div>

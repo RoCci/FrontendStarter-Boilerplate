@@ -1,0 +1,29 @@
+.a-text-wrapper {
+    margin-left: .38rem; /* 6px */
+    margin-right: .38rem; /* 6px */
+    text-align: left;
+}
+
+.a-text-wrapper--on-top-of-image {
+    margin-top: -88vw;
+}
+
+@media (--tablet) {
+    .a-text-wrapper {
+        text-align: center;
+    }
+
+    .a-text-wrapper--on-top-of-image {
+        margin-top: -55vw;
+    }
+}
+
+@media (--desktop) {
+    .a-text-wrapper {
+        text-align: center;
+    }
+
+    .a-text-wrapper--on-top-of-image {
+        margin-top: -25rem; /* 400px */
+    }
+}

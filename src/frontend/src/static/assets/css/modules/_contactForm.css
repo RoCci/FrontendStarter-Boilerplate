@@ -1,0 +1,319 @@
+.anfrage-bottom-wrapper {
+    height: 0;
+    overflow: hidden;
+}
+
+.anfrage-bottom-wrapper__inner {
+    color: #fff;
+    padding-bottom: 35px;
+}
+
+.anfrage-bottom-wrapper__subline {
+    margin-bottom: 20px;
+}
+
+.anfrage-forms .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-container-service-partner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.service-partner-choise {
+    align-self: center;
+    flex-basis: 99%;
+    padding: 0;
+}
+
+.service-partner-choise h3 {
+    font-size: 24px;
+}
+
+div[hook="anfrage-wrapper-inner"] {
+    padding: 40px 60px;
+    position: relative;
+}
+
+.partner-name {
+    font-family: CorporateSRegular, Helvetica, Arial, sans-serif;
+}
+
+.anfrage-forms input[type="text"],
+.anfrage-forms input[type="email"],
+.anfrage-forms input[type="tel"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.form-container-service-partner input[type="text"] {
+    align-self: center;
+    background-color: #000;
+    border: transparent;
+    flex-basis: 1%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container-service-partner input[type="text"]:focus {
+    outline: none;
+}
+
+.anfrage-forms input[type="submit"] {
+    background-color: #00adef;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    flex-basis: 100%;
+    font-size: 14px;
+    margin-top: 14px;
+    max-width: 280px;
+    padding: 14px 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.anfrage-forms .form-radio--container {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-gender,
+.form-titel {
+    flex-basis: 100%;
+}
+
+.form-radio--container label {
+    flex-basis: 100%;
+}
+
+.form-gender select,
+.form-titel select {
+    -webkit-appearance: none;
+    border-radius: 0;
+    border-width: 0;
+    height: 40px;
+    padding: 5px;
+    width: 100%;
+}
+
+.anfrage-forms .form-radio--container > label {
+    float: left;
+    width: 90px;
+}
+
+.anfrage-forms .form-radio--container > div {
+    float: left;
+    padding-right: 50px;
+}
+
+.anfrage-forms .form-radio--container > div:last-child {
+    padding-right: 0;
+}
+
+.contact-textarea {
+    flex-basis: 100%;
+    resize: none;
+}
+
+.form-radio {
+    background: #fff;
+    border-radius: 20px;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.form-radio input[type="radio"] {
+    position: relative;
+    visibility: hidden;
+}
+
+.form-radio--group > label {
+    padding-left: 32px;
+}
+
+.anfrage-forms .form-checkbox--group {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form-checkbox-data-link {
+    color: #00adef;
+    cursor: pointer;
+    flex-basis: 100%;
+    margin: 20px;
+}
+
+.form-checkbox-data-link:hover {
+    color: #009bd6;
+}
+
+.form-checkbox {
+    flex-basis: 5%;
+}
+
+.form-checkbox-statement {
+    flex-basis: 94%;
+    margin-bottom: 10px;
+}
+
+.form-contact-variante {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.form-contact-variante-container {
+    display: flex;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+}
+
+.form-contact-variante label {
+    align-self: center;
+    flex-basis: 40%;
+}
+
+.form-contact-variante span {
+    align-self: center;
+    flex-basis: 5%;
+}
+
+.form-contact-variante input[type="checkbox"] {
+    display: none;
+}
+
+.form-contact-variante input[type="checkbox"]:checked ~ .toggle {
+    left: 26px;
+    transition: .5s;
+}
+
+.form-contact-variante input[type="checkbox"]:checked ~ .switch {
+    background: #00adef;
+    transition: .5s;
+}
+
+.switch {
+    background: #939393;
+    border-radius: 10px;
+    display: block;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    transition: .5s;
+    width: 50px;
+}
+
+.toggle {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 50px / 50 50px / 25 rgba(#000, .4);
+    height: 28px;
+    left: -4px;
+    position: absolute;
+    top: -4px;
+    transition: .5s;
+    width: 28px;
+}
+
+.form-switch-container {
+    display: inline-block;
+    height: 20px;
+    margin: 9px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+}
+
+.form-note {
+    color: #999;
+    flex-basis: 100%;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+@media (--tablet) {
+    .anfrage-bottom-wrapper__inner {
+        display: flex;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-bottom: 150px;
+    }
+
+    .anfrage-bottom-wrapper__item {
+        display: flex;
+        flex: 1 0 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .anfrage-forms input[type="text"],
+    .anfrage-forms input[type="email"],
+    .anfrage-forms input[type="tel"] {
+        margin-bottom: 20px;
+    }
+
+    .anfrage-forms .form .form-container-contact {
+        width: 60%;
+    }
+
+    .anfrage-forms .form .form-container-service-partner {
+        width: 40%;
+    }
+
+    .service-partner-choise {
+        padding: 20px;
+        position: absolute;
+        top: 35px;
+    }
+
+    .anfrage-forms .form-radio--container {
+        display: flex;
+        flex-basis: 49%;
+        margin-bottom: 20px;
+    }
+
+    .contact-input--25 {
+        flex-basis: 24%;
+    }
+
+    .contact-input--50 {
+        flex-basis: 49%;
+    }
+
+    .contact-input--75 {
+        flex-basis: 74%;
+    }
+
+    .anfrage-forms input[type="submit"] {
+        margin-bottom: initial;
+        width: initial;
+    }
+
+    .anfrage-forms .form-radio--container > label {
+        width: 135px;
+    }
+}

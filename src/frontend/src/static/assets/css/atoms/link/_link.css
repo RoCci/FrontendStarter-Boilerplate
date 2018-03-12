@@ -1,0 +1,16 @@
+.a-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.a-link:hover {
+    color: var(--white);
+}
+
+.a-link--internal {
+    color: var(--active-color);
+}
+
+.a-link--external {
+    color: var(--text-color);
+}

@@ -1,0 +1,6 @@
+{
+    "resourceType": "modules/mainRightCol",
+    "mainLoginForm": {
+      "json": "modules/mainLoginForm"
+    }
+}

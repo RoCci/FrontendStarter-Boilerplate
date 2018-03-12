@@ -1,0 +1,70 @@
+/**
+ * utilities
+ */
+
+@define-placeholder simple-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@define-placeholder visually-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+@define-placeholder visually-not-hidden {
+    clip: inherit;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.u-body-no-scroll {
+    overflow: hidden;
+    position: fixed;
+}
+
+.u-list-style-none {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.u-visually-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+.u-hidden {
+    display: none;
+}
+
+.u-list-style-none {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.u-transform-rotate {
+    transform: rotate(180deg);
+}
+
+.u-no-overflow {
+    overflow: hidden;
+}
+
+.u-relative {
+    position: relative;
+}
+
+.u-flex {
+    display: flex;
+}

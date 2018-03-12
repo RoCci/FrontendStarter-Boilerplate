@@ -1,0 +1,110 @@
+.m-header__logo {
+    float: none;
+    height: 50px;
+    margin: 20px 0 20px 20px;
+}
+
+.partnerLogo {
+    display: none;
+}
+
+.user-name {
+    display: none;
+}
+
+nav.m-login--anchor {
+    display: block;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 32px;
+}
+
+.loggedin nav.m-login--anchor {
+    display: none;
+}
+
+nav.m-login--anchor a {
+    background: url("/assets/img/icons/svg/login.svg") left no-repeat;
+    color: #999;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 10px 2px;
+    padding-left: 34px;
+    text-decoration: none;
+}
+
+nav.m-logout {
+    display: none;
+}
+
+nav.m-logout a {
+    background: url("/assets/img/icons/svg/logout.svg") left no-repeat;
+    color: #999;
+    display: block;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 34px;
+    text-decoration: none;
+}
+
+@media (--phone-up) {
+    .m-header {
+        height: auto;
+    }
+
+    .m-header__logo {
+        height: 50px;
+        margin: 25px 0 20px 20px;
+    }
+
+    .partnerLogo {
+        display: none;
+    }
+
+    .user-name {
+        display: none;
+    }
+}
+
+@media (--tablet) {
+    nav.m-login--anchor {
+        display: none;
+    }
+
+    nav.m-logout {
+        display: block;
+        float: right;
+        position: absolute;
+        right: 25px;
+        top: 66px;
+    }
+
+    nav.m-logout a {
+        background: url("/assets/img/icons/svg/logout.svg") left no-repeat;
+        color: #999;
+        display: block;
+        font-size: 16px;
+        margin: 10px 0 10px 2px;
+        padding-left: 34px;
+        text-decoration: none;
+    }
+
+    .m-header__logo {
+        float: left;
+        height: 89px;
+        margin: 25px 0 20px 20px;
+    }
+
+    .hpIndex .m-header__logo {
+        float: none;
+        height: 89px;
+        margin: 25px 0 20px 20px;
+    }
+
+    .partnerLogo {
+        display: block;
+        float: left;
+        margin: 60px 0 0 60px;
+    }
+}

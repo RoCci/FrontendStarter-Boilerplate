@@ -1,0 +1,6 @@
+{
+    "resourceType": "modules/mainContainer",
+    "mainText": {
+      "json": "modules/errorText"
+    }
+}

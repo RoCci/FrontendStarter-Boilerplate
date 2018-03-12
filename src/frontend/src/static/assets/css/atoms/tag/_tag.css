@@ -1,0 +1,7 @@
+.a-tag {
+    background-color: var(--active-color);
+    border-radius: .25rem;
+    color: var(--white);
+    margin: .13rem;
+    padding: .25rem;
+}

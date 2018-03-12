@@ -1,0 +1,8 @@
+.a-error-container {
+    background-color: var(--error-color);
+    padding: 1.25rem; /* 20px */
+}
+
+.a-error-container--hidden {
+    display: none;
+}

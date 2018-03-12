@@ -1,0 +1,14 @@
+<div class="mainForm--overlay">
+    <a class="button-close" ></a>
+
+    <form class="m-mainForm js-mainForm">
+    <div class="js-error-container a-error-container a-error-container--hidden">
+      {{{include this path="errors"}}}
+    </div>
+    <div class="a-container">
+      {{{include this path="personalData2"}}}
+        <p class="m-mainForm__require-text">{{requireText}}</p>
+        <input type="button" class="a-button a-button--static-on-non-mobile" value="{{buttonText}}" name="button_Send">
+    </div>
+  </form>
+</div>

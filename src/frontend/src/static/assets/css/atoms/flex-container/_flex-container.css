@@ -1,0 +1,9 @@
+.a-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a-flex-container .col {
+    margin-bottom: .5rem;
+}

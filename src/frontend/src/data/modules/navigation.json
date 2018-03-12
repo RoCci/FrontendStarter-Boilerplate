@@ -1,0 +1,14 @@
+{
+  "resourceType": "modules/navigation",
+  "navigationItem": [ 
+  {
+    "class": "homeLink",
+    "text": "Homepage",
+    "href": "/"
+  },
+{    "class": "aboutLink",
+    "text": "About",
+    "href": "/about"
+  }
+]
+}

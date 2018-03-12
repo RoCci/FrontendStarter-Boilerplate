@@ -1,0 +1,176 @@
+.pageIndex .flagPt {
+    display: none;
+}
+
+.loggedin .flagHp {
+    display: none;
+}
+
+.js-mainFlagToggle {
+    display: block;
+}
+
+.js-mainFlagNoneToggle {
+    display: none;
+}
+
+.m-mainFlag {
+    background: var(--active-color);
+    padding: 14px 20px;
+    position: static;
+    right: auto;
+    top: auto;
+    width: auto;
+}
+
+.titleClickTarget {
+    cursor: pointer;
+}
+
+svg.iconInfoSquare {
+    float: right;
+    position: relative;
+    top: 6px;
+}
+
+a.svg-hover svg:active .st0,
+svg.iconInfoSquare .st0 {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 4;
+}
+
+a.svg-hover svg:active .st1,
+svg.iconInfoSquare .st1 {
+    fill: #fff;
+}
+
+a.svg-hover {
+    display: inline;
+}
+
+a.svg-hover svg:hover .st0 {
+    fill: #fff;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 4;
+}
+
+a.svg-hover svg:hover .st1 {
+    fill: var(--active-color);
+}
+
+h1.m-mainFlag__title span {
+    border-top: none;
+    display: block;
+    font-family: var(--font-family);
+    padding-right: 6px;
+    padding-top: 0;
+    width: auto;
+}
+
+h1.m-mainFlag__title {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+
+.m-mainFlag h3 {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+
+.m-mainFlag p.m-mainFlag__text {
+    color: #fff;
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 12px;
+}
+
+.m-mainFlag p.textElementToggle {
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 20px;
+}
+
+@media (--tablet) {
+    .js-mainFlagToggle {
+        display: none;
+    }
+
+    .js-mainFlagNoneToggle {
+        display: block;
+    }
+
+    .m-mainFlag {
+        background: url("../img/flagBtm.png") no-repeat bottom;
+        padding: 30px 22px 50px;
+        position: absolute;
+        right: 134px;
+        top: 0;
+        width: 272px;
+    }
+
+    .pageIndex .m-mainFlag {
+        right: 46px;
+    }
+
+    h1.m-mainFlag__title span {
+        border-top: 1px solid #fff;
+        display: block;
+        font-family: var(--font-family);
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-right: 0;
+        padding-top: 10px;
+        width: 52px;
+    }
+
+    h1.m-mainFlag__title {
+        cursor: default;
+        font-family: var(--font-family-headline);
+        font-size: 27px;
+        line-height: 31px;
+        margin: 0;
+    }
+
+    .m-mainFlag h3 {
+        font-family: var(--font-family);
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+    }
+}
+
+@media (--phone) {
+    h1.m-mainFlag__title {
+        font-family: var(--font-family-headline);
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 29px;
+        margin: 0;
+    }
+
+    h1.m-mainFlag__title span {
+        display: block;
+        font-family: var(--font-family);
+        font-size: 18px;
+    }
+
+    .m-mainFlag h3 {
+        font-family: var(--font-family);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 29px;
+        margin: 0;
+    }
+}

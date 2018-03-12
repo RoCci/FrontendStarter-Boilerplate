@@ -1,0 +1,48 @@
+{
+    "resourceType": "partials/loginData",
+    "title": "Form Example",
+    "items": [
+        [
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "textbox",
+                                "input": {
+                                    "type": "text",
+                                    "hasPlaceholder": true,
+                                    "id": "Username"
+                                },
+                                "label": {
+                                    "value": "Username*"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "row": [
+                    {
+                        "col": {
+                            "size": "full",
+                            "div": {
+                                "class": "textbox",
+                                "input": {
+                                    "type": "text",
+                                    "hasPlaceholder": true,
+                                    "id": "Password"
+                                },
+                                "label": {
+                                    "value": "Password*"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    ]
+}
