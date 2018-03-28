@@ -100,7 +100,7 @@ h1.m-mainFlag__title {
     margin-top: 20px;
 }
 
-@media (--tablet) {
+@media (--desktop) {
     .js-mainFlagToggle {
         display: none;
     }

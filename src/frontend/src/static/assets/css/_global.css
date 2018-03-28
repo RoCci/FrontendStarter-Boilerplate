@@ -62,7 +62,7 @@ picture {
     margin-bottom: -8px;
 }
 
-@media (--tablet) {
+@media (--desktop) {
     .m-mainLeftCol picture {
         margin-bottom: auto;
     }
