@@ -3,6 +3,7 @@
     height: 180px;
     position: absolute;
     top: 0;
+    z-index: 99999;
 }
 
 .main_navigation nav {
