@@ -88,7 +88,7 @@ h1.m-mainFlag__title {
 
 .m-mainFlag p.m-mainFlag__text {
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
     margin-top: 12px;
 }
@@ -110,8 +110,8 @@ h1.m-mainFlag__title {
     }
 
     .m-mainFlag {
-        background: url("../img/flagBtm.png") no-repeat bottom;
-        padding: 30px 22px 50px;
+        background: url("../img/flagBtm.svg") no-repeat bottom;
+        padding: 22px 22px 50px;
         position: absolute;
         right: 134px;
         top: 0;
@@ -154,7 +154,7 @@ h1.m-mainFlag__title {
 @media (--phone) {
     h1.m-mainFlag__title {
         font-family: var(--font-family-headline);
-        font-size: 28px;
+        font-size: 36px;
         font-weight: 400;
         line-height: 29px;
         margin: 0;
@@ -163,7 +163,7 @@ h1.m-mainFlag__title {
     h1.m-mainFlag__title span {
         display: block;
         font-family: var(--font-family);
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .m-mainFlag h3 {

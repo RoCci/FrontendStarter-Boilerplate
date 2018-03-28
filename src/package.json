@@ -1,7 +1,7 @@
 {
-  "name": "mbvd_LPP_frontend",
+  "name": "FrontendStarter",
   "version": "1.0.0",
-  "description": "MBVD LPP Frontend",
+  "description": "FrontendStarter",
   "private": true,
   "scripts": {
     "start": "gulp dev",
@@ -14,9 +14,9 @@
     "test": "mocha -u bdd frontend/dist/static/assets/js/main.spec.js",
     "posttest": "gulp posttest"
   },
-  "author": "Publicis Pixelpark",
+  "author": "Riccardo Krone",
   "contributors": [
-    "Riccardo Krone <riccardo.krone@publicispixelpark.de>"
+    "Riccardo Krone <riccardo.krone@gmail.com>"
   ],
   "dependencies": {
     "ally.js": "^1.1.0",

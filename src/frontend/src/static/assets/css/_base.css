@@ -11,16 +11,17 @@
     --lighter-grey: #999;
 
     /* general */
-    --active-color: #00adef;
-    --hover-color: #009bd6;
+    --active-color: #e45c56;
+    --hover-color: #f96350;
     --error-color: #9f0102;
-    --background-color: #000;
+    --background-color: #343636;
+    --darkgreen-color: #292d2a;
     --headline-color: var(--white);
     --text-color: #000;
     --font-size: 16px; /* 18px */
     --font-weight: 400;
-    --font-family-headline: Open Sans, sans-serif;
-    --font-family: Open Sans, sans-serif;
+    --font-family-headline: "Nanum Myeongjo", serif;
+    --font-family: "Nanum Gothic", sans-serif;
 
     /* columns */
     --col-margin-bottom: .5rem; /* 8px */
@@ -42,7 +43,7 @@
     /* buttons */
     --button-color: var(--white);
     --button-background: var(--active-color);
-    --button-background-hover: #009bd6;
+    --button-background-hover: #f96350;
     --button-sec-color: var(--active-color);
     --button-sec-background: #333 linear-gradient(#333, #282828);
     --button-sec-background-hover: #282828 linear-gradient(#282828, #000);

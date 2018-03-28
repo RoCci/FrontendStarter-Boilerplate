@@ -6,18 +6,69 @@
     z-index: 1002;
 }
 
-.mainForm--overlay {
+.partnerForm--overlay {
     background-color: #fff;
+    bottom: 140px;
     color: #000;
     display: none;
-    height: auto;
-    max-width: 800px;
-    position: fixed;
-    z-index: 1002;
+    left: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 96px;
+    width: 100%;
+    z-index: 9999;
 }
 
+.partnerForm--overlay .a-button--secondary {
+    display: block;
+}
+
+.main--confirmLogin {
+    background-color: #fff;
+    box-shadow: 1px 1px 20px #000;
+    color: #000;
+    display: none;
+    height: 54px;
+    left: 0;
+    margin: 160px auto 200px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 300px;
+    z-index: 9999;
+}
+
+.mainPasswordReset--overlay,
+.mainForm--overlay {
+    background-color: #fff;
+    bottom: 140px;
+    color: #000;
+    display: none;
+    left: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 96px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.mainPasswordReset--overlay a.btnClose,
+.mainForm--overlay a.btnClose,
+.partnerForm--overlay a.btnClose {
+    display: none;
+}
+
+.mainPasswordReset--overlay .a-container,
 .mainForm--overlay .a-container {
-    padding: 50px;
+    padding: 40px 20px;
+}
+
+.partnerForm--overlay .a-container {
+    padding: 40px 20px;
 }
 
 .metapages--overlay {
@@ -31,18 +82,25 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1100;
+    z-index: 10000;
 }
 
 .main--noAccessOverlay {
-    left: auto;
-    margin: 0 15px;
-    max-width: none;
-    position: fixed;
-    top: 100px;
+    background-color: #fff;
+    bottom: 140px;
+    color: #000;
+    display: none;
+    height: 100%;
+    left: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
-a.button-close {
+.button-close {
     background: url("/assets/img/icons/svg/close.svg") right no-repeat;
     cursor: pointer;
     display: block;
@@ -54,21 +112,71 @@ a.button-close {
     z-index: 1004;
 }
 
+.button-regclose {
+    right: 25px;
+    top: 25px;
+}
+
 .main--noAccessOverlay a.button-close {
     right: 20px;
     top: 20px;
 }
 
-a.button-white {
-    background: url("/assets/img/icons/svg/close_white.svg") right no-repeat;
+.button-white {
+    background: transparent;
+    border: none;
     cursor: pointer;
-    display: block;
-    height: 25px;
+    height: 26px;
     position: absolute;
-    right: 30px;
-    top: 30px;
-    width: 25px;
-    z-index: 1004;
+    right: 20px;
+    top: 20px;
+    -webkit-transition: .5s cubic-bezier(.215, .61, .355, 1);
+    transition: .5s cubic-bezier(.215, .61, .355, 1);
+    width: 26px;
+    z-index: 10;
+}
+
+.button-white::after,
+.button-white::before {
+    background-color: #fff;
+    content: " ";
+    height: 34px;
+    left: 11px;
+    position: absolute;
+    top: -5px;
+    -webkit-transition: .5s cubic-bezier(.215, .61, .355, 1);
+    transition: .5s cubic-bezier(.215, .61, .355, 1);
+    width: 3px;
+}
+
+.button-white.button-black::after,
+.button-white.button-black::before {
+    background-color: #000;
+}
+
+.button-white::after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.button-white::before {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.button-white:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.button-white:hover::after {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.button-white:hover::before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .overlay-header {
@@ -99,17 +207,16 @@ a.button-white {
 .overlay-container--content {
     margin: 0 auto;
     max-width: 900px;
-    padding: 100px 30px 0;
+    padding: 100px 30px;
 }
 
 .overlay--bg {
     background-color: #000;
     display: none;
-    filter: alpha(opacity=80);
+    filter: alpha(opacity=50);
     height: 100%;
     left: 0%;
-    -moz-opacity: .8;
-    opacity: .8;
+    opacity: 0;
     position: fixed;
     top: 0%;
     width: 100%;
@@ -140,13 +247,112 @@ a.button-white {
     color: #000;
 }
 
-@media (--phone-up) {
+@media (--desktop) {
     .main--noAccessOverlay {
-        left: 25%;
-        margin: 0;
+        background-color: #fff;
+        border: 1px solid #000;
+        bottom: 0;
+        height: 250px;
+        left: 0;
+        margin: 80px auto 60px;
         max-width: 485px;
+        overflow: hidden;
         position: absolute;
-        top: 80px;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1002;
+    }
+
+    .mainForm--overlay {
+        background-color: #fff;
+        border: 1px solid #000;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        margin: 80px auto 60px;
+        max-width: 680px;
+        min-height: 800px;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1002;
+    }
+
+    .mainPasswordReset--overlay a.btnClose,
+    .mainForm--overlay a.btnClose,
+    .partnerForm--overlay a.btnClose {
+        display: block;
+    }
+
+    .mainPasswordReset--overlay button.btnClose,
+    .mainForm--overlay button.btnClose {
+        display: none;
+    }
+
+    .mainPasswordReset--overlay .a-container,
+    .mainForm--overlay .a-container,
+    .partnerForm--overlay .a-container {
+        padding: 50px;
+    }
+
+    .overlay--bg {
+        opacity: .5;
+    }
+
+    .main--confirmLogin {
+        background-color: #fff;
+        box-shadow: 1px 1px 20px #000;
+        color: #000;
+        display: none;
+        height: 54px;
+        left: 0;
+        margin: 160px auto 200px;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        width: 300px;
+        z-index: 9999;
+    }
+
+    .mainPasswordReset--overlay {
+        background-color: #fff;
+        border: 1px solid #000;
+        bottom: 0;
+        height: 410px;
+        left: 0;
+        margin: 120px auto 200px;
+        max-width: 680px;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .partnerForm--overlay {
+        background-color: #fff;
+        border: 1px solid #000;
+        bottom: 0;
+        height: calc(45rem);
+        left: 0;
+        margin: 120px auto 60px;
+        max-width: 680px;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1002;
+    }
+
+    .partnerForm--overlay .a-button--secondary {
+        display: none;
     }
 
     .overlay-container {

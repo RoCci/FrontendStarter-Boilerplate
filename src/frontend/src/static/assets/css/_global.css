@@ -23,6 +23,7 @@ body {
     color: var(--text-color);
     font-family: var(--font-family);
     font-size: var(--font-size);
+    -webkit-font-smoothing: antialiased;
     line-height: 145%;
 }
 

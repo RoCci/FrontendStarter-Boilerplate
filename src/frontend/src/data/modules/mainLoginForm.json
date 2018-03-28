@@ -10,5 +10,5 @@
     "forgottenPassword": {
       "text": "Password reset"
     },
-    "requireText": " * required fields"
+    "requireText": ""
 }
