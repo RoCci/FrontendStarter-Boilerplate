@@ -16,8 +16,8 @@ nav.m-login--anchor {
     display: block;
     float: right;
     position: absolute;
-    right: 20px;
-    top: 32px;
+    right: 90px;
+    top: 22%;
 }
 
 .loggedin nav.m-login--anchor {
@@ -67,7 +67,7 @@ nav.m-logout a {
     }
 }
 
-@media (--tablet) {
+@media (--desktop) {
     nav.m-login--anchor {
         display: none;
     }

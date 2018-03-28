@@ -12,6 +12,11 @@
       "json": "modules/header"
     }
   },
+  "navigation": {
+    "navigation": {
+      "json": "modules/navigation"
+    }
+  },
   "mainLeftCol": {
       "mainLeftCol": {
     "json": "modules/mainLeftCol"
