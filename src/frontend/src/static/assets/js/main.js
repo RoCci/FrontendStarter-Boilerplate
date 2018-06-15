@@ -27,12 +27,3 @@ let  mainFlagElement = document.querySelector( '.js-mainFlagToggle' );
 if (  mainFlagElement ) {
     new MainFlag( mainFlagElement );
 }
-
-const VehicleSelection = require( './partials/vehicleSelection' );
-let vehicleSelectionElement = document.querySelector( '.js-vehicle-selection' );
-if (  vehicleSelectionElement ) {
-    new VehicleSelection( vehicleSelectionElement );
-}
-
-const DealerLocator = require( './modules/dealerLocator/DealerLocator' );
-new DealerLocator();
