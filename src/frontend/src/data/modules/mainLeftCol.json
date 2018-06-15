@@ -8,8 +8,5 @@
     },
     "mainText": {
       "json": "modules/mainText"
-    },
-    "mainForm": {
-      "json": "modules/mainForm"
     }
 }

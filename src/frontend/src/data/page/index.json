@@ -31,10 +31,5 @@
     "footer": {
       "json": "modules/footer"
     }
-  },
-  "cookieLayer": {
-    "cookieLayer": {
-      "json": "partials/cookieLayer"
-    }
   }
 }

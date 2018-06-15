@@ -10,17 +10,6 @@ require( 'promise-polyfill' );
 require( './modules/overlay' );
 
 // modules
-const CheckForm = require( './modules/checkForm' );
-let  checkFormElement = document.querySelector( '.js-mainAuthForm' );
-if (  checkFormElement ) {
-    new CheckForm( checkFormElement );
-}
-
-const CookieLayer = require( './modules/cookieLayer' );
-let  cookieLayerElement = document.querySelector( '.js-cookieLayer' );
-if (  cookieLayerElement ) {
-    new CookieLayer( cookieLayerElement );
-}
 
 const MainFlag = require( './modules/mainFlag' );
 let  mainFlagElement = document.querySelector( '.js-mainFlagToggle' );
