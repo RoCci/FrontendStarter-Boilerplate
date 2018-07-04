@@ -148,7 +148,7 @@ svg.mobile {
 .nav-hamb--checkbox:checked ~ .nav-container {
     background: #000;
     display: block;
-    margin-top: 94px;
+    margin-top: 0;
     padding: 20px 0 0;
     z-index: 9990;
 }
