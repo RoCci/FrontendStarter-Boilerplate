@@ -1,10 +1,10 @@
-.main_navigation {
+/* .main_navigation {
     background-color: transparent;
     height: 180px;
     position: absolute;
     top: 0;
     z-index: 99999;
-}
+} */
 
 .main_navigation nav {
     padding: 0;
@@ -93,7 +93,7 @@ svg.mobile {
     height: 48px;
     position: absolute;
     right: 10px;
-    top: 20px;
+    top: -70px;
     width: 60px;
     z-index: 999;
 }
@@ -161,4 +161,18 @@ svg.mobile {
 
 .nav-hamb--checkbox.hidden {
     display: none;
+}
+
+@media (--desktop) {
+    .nav-hamb--label {
+        border-radius: 50%;
+        cursor: pointer;
+        display: block;
+        height: 48px;
+        position: absolute;
+        right: 26px;
+        top: -90px;
+        width: 60px;
+        z-index: 999;
+    }
 }

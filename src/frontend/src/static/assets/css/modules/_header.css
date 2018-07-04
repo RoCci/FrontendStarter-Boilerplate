@@ -1,7 +1,7 @@
 .m-header__logo {
     float: none;
     height: 50px;
-    margin: 20px 0 20px 20px;
+    margin: 16px 0 13px 16px;
 }
 
 .partnerLogo {
@@ -55,7 +55,7 @@ nav.m-logout a {
 
     .m-header__logo {
         height: 50px;
-        margin: 25px 0 20px 20px;
+        margin: 16px 0 13px 16px;
     }
 
     .partnerLogo {
@@ -92,14 +92,14 @@ nav.m-logout a {
 
     .m-header__logo {
         float: left;
-        height: 89px;
-        margin: 25px 0 20px 20px;
+        height: 60px;
+        margin: 42px 0 8px 16px;
     }
 
     .hpIndex .m-header__logo {
         float: none;
-        height: 89px;
-        margin: 25px 0 20px 20px;
+        height: 60px;
+        margin: 42px 0 8px 16px;
     }
 
     .partnerLogo {
