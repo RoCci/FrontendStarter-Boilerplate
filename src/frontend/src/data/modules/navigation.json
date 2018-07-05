@@ -1,12 +1,12 @@
 {
   "resourceType": "modules/navigation",
-  "navigationItem": [ 
+  "navigationItem": [
   {
-    "class": "homeLink",
+    "class": "pageIndex",
     "text": "Homepage",
     "href": "/"
   },
-{    "class": "aboutLink",
+{    "class": "pageAbout",
     "text": "About",
     "href": "/about"
   }

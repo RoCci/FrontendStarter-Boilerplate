@@ -2,7 +2,7 @@
   "buildNumber": "0.0.0",
   "resourceType": "page/page",
   "plainTextTitle": "FrontendBoilerplate",
-  "pageName": "pageCalculate loggedin",
+  "pageName": "pageAbout",
   "path": "/about",
   "meta": {
     "description": "FrontendBoilerplate",

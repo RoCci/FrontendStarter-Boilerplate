@@ -16,3 +16,9 @@ let  mainFlagElement = document.querySelector( '.js-mainFlagToggle' );
 if (  mainFlagElement ) {
     new MainFlag( mainFlagElement );
 }
+
+const NavigationActiveClass = require( './modules/navigationActiveClass' );
+let  navigationActiveClassElement = document.querySelector( '.js-navigationActiveClass' );
+if (  navigationActiveClassElement ) {
+    new NavigationActiveClass( navigationActiveClassElement );
+}
