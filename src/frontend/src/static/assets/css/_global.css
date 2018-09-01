@@ -27,6 +27,10 @@ body {
     line-height: 145%;
 }
 
+html.hidden {
+    display: block !important;
+}
+
 h1,
 h2,
 h3,
