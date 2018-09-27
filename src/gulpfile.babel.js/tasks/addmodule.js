@@ -1,7 +1,6 @@
 /*
  *  Module Creation Task
  *
- *  https://git.pixelpark.com/peter.kreinz/gulp-task-addmodule
  *  v0.1.2
  *
  * */
