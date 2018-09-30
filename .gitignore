@@ -15,6 +15,6 @@
 src/frontend/dist/data/
 src/frontend/dist/views/
 src/frontend/dist/static/
-
+src/frontend/dist/static
 # generated assets
 src/frontend/src/views/page/icons.handlebars
