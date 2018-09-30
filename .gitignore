@@ -12,7 +12,13 @@
 /npm-debug.log
 
 # dist
-src/frontend/dist/data/
-src/frontend/dist/views/
+
+
+/src/frontend/dist
+
 # generated assets
 /src/frontend/src/views/page/icons.handlebars
+/src/frontend/dist/
+/src/frontend/dist/data/
+/src/frontend/dist/static/
+/src/frontend/dist/static/assets/js/main.js

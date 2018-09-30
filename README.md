@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Node 6 LTS
+- Node 9
 
 ## Initialization
 
