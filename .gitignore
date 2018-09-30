@@ -3,7 +3,7 @@
 
 # Intellij Idea
 .idea/
-*.iml
+.idea/frontendBoilerplate.iml
 
 # node
 /src/logs
@@ -14,5 +14,7 @@
 # dist
 src/frontend/dist/data/
 src/frontend/dist/views/
+src/frontend/dist/static/
+
 # generated assets
-/src/frontend/src/views/page/icons.handlebars
+src/frontend/src/views/page/icons.handlebars

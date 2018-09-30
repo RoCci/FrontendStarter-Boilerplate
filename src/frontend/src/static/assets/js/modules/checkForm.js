@@ -19,22 +19,22 @@ class CheckForm {
 
 
     }
-        _initAtoms() {
-            this._initSendButton();
-        }
+    _initAtoms() {
+        this._initSendButton();
+    }
 
 
-        _initSendButton() {
-            this.sendButton = new Button( this.checkFormElement, SEND_BUTTON_NAME );
-            this.sendButton.addClickEventListener( this._click.bind( this ) );
-        }
+    _initSendButton() {
+        this.sendButton = new Button( this.checkFormElement, SEND_BUTTON_NAME );
+        this.sendButton.addClickEventListener( this._click.bind( this ) );
+    }
 
-        _click() {
-              this._validateAuthenticationNumberAndgotoRegForm();
-        }
+    _click() {
+        this._validateAuthenticationNumberAndgotoRegForm();
+    }
 
     async _validateAuthenticationNumberAndgotoRegForm() {
-      let data = 666666;
+        let data = 666666;
         try {
             await this.restClient.validateAuthenticationNumber( data );
 

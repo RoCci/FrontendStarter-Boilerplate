@@ -25,17 +25,17 @@ class MainAuthForm {
     }
 
     _initInputs() {
-          this._initCityTextbox();
-          this._initCompanyNameTextbox();
-          this._initEmailTextbox();
-          this._initFirstNameTextbox();
-          this._initHouseNumberTextbox();
-          this._initLastNameTextbox();
-          this._initStreetTextbox();
-          this._initZipCodeTextbox();
-          this._initHerrRadiobutton();
-          this._initFrauRadiobutton();
-      }
+        this._initCityTextbox();
+        this._initCompanyNameTextbox();
+        this._initEmailTextbox();
+        this._initFirstNameTextbox();
+        this._initHouseNumberTextbox();
+        this._initLastNameTextbox();
+        this._initStreetTextbox();
+        this._initZipCodeTextbox();
+        this._initHerrRadiobutton();
+        this._initFrauRadiobutton();
+    }
 
     _initSendButton() {
         this.sendButton = new Button( this.mainAuthFormElement, SEND_BUTTON_NAME );
@@ -43,7 +43,7 @@ class MainAuthForm {
     }
 
     _click() {
-          this._validateUserDataAndGoToNextPage();
+        this._validateUserDataAndGoToNextPage();
     }
 
     async _validateUserDataAndGoToNextPage() {
