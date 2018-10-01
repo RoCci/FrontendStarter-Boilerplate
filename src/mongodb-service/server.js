@@ -8,12 +8,12 @@ const express       = require('express'),
     csrf            = require('csurf'),
     morgan          = require('morgan'),
     favicon         = require('serve-favicon'),
-    
+
     router          = require('./routes/router'),
     database        = require('./lib/database'),
     seeder          = require('./lib/dbSeeder'),
     app             = express(),
-    port            = 3000;
+    port            = 3030;
 
 class Server {
 
@@ -87,7 +87,7 @@ class Server {
             //the seeder when in dev mode
             //if (process.env.NODE_ENV === 'development') {
             //  seeder.init();
-            //} 
+            //}
             seeder.init();
         });
     }
