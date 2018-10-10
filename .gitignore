@@ -2,8 +2,7 @@
 .DS_Store
 
 # Intellij Idea
-.idea/
-*.iml
+/.idea/
 
 # node
 /src/logs
