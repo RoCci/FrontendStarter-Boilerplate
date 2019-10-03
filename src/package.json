@@ -43,6 +43,7 @@
     "hbsfy": "^2.8.1",
     "jquery-autocomplete": "^1.2.1",
     "js-cookie": "^2.1.2",
+    "jscs": "^3.0.7",
     "jsonschema": "^1.1.0",
     "lazysizes": "^2.0.1",
     "lodash": "^4.17.4",
