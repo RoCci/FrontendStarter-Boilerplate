@@ -14,23 +14,23 @@
     "Markus Baumann <markus.baumann@publicispixelpark.de>"
   ],
   "dependencies": {
-    "abbrev": "^1.0.7",
-    "ansi-regex": "^3.0.0",
-    "ansi-styles": "^3.2.0",
-    "bunyan": "^1.8.1",
-    "compression": "^1.6.1",
-    "express": "^4.13.4",
-    "express-handlebars": "^3.0.0",
-    "express-minify-html": "^0.11.5",
+    "abbrev": "^1.1.1",
+    "ansi-regex": "^4.1.0",
+    "ansi-styles": "^4.1.0",
+    "bunyan": "^1.8.12",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-minify-html": "^0.12.0",
     "express-subdomain": "^1.0.5",
     "express-urlrewrite": "^1.2.0",
-    "helmet": "^3.9.0",
-    "rc": "^1.1.6",
-    "request": "^2.69.0"
+    "helmet": "^3.21.1",
+    "rc": "^1.2.8",
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "nodemon": "^1.9.1",
-    "npm-check-updates": "^2.8.0",
-    "nsp": "^3.1.0"
+    "nodemon": "^1.19.3",
+    "npm-check-updates": "^3.1.23",
+    "nsp": "^3.2.1"
   }
 }
