@@ -1,9 +1,11 @@
 <div class="m-mainLeftCol">
-  {{{include this path="mainImage"}}}
-  {{{include this path="mainFlag"}}}
+  {{!-- {{{include this path="mainImage"}}} --}}
+  {{!-- {{{include this path="mainFlag"}}} --}}
   <div class="m-mainText">
-      <h1 class="m-mainText__title">{{mainText.title.line1}}<br>{{mainText.title.line2}}</h1>
-      <p class="m-mainText__text">{{mainText.text}}</p>
+      <h2 class="m-mainText__title">{{mainText.title.line1}} <span class="mainText__title_accent">{{mainText.title.line2}}</span></h2>
+      <p class="m-mainText__text">{{mainText.text.para1}}</p>
+      <p class="m-mainText__text">{{mainText.text.para2}}</p>
+      <p class="m-mainText__text">{{mainText.text.para3}}</p>
   </div>
 </div>
 <div class="overlay--bg" id="fade"></div>

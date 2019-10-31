@@ -5,30 +5,31 @@
 :root {
     /* colors */
     --white: #fff;
-    --dark-grey: #333;
-    --grey: #3c3c3c;
-    --light-grey: #666;
-    --lighter-grey: #999;
+    --dark-grey: #6d7070;
+    --grey: #a4a6a6;
+    --light-grey: #b9b9b9;
+    --lighter-grey: rgb(201, 201, 201);
 
     /* general */
-    --active-color: #e45c56;
-    --hover-color: #f96350;
-    --error-color: #9f0102;
-    --background-color: #343636;
+    --active-color: #e24f4f;
+    --hover-color: #cf3131d5;
+    --error-color: var(--active-color);
+    --background-color: #282a2a;
     --darkgreen-color: #292d2a;
-    --headline-color: var(--white);
-    --text-color: #000;
-    --font-size: 16px; /* 18px */
+    --headline-color: var(--grey);
+    --text-color: var(--light-grey);
+    --font-size: 13px; /* 18px */
     --font-weight: 400;
-    --font-family-headline: "Nanum Myeongjo", serif;
-    --font-family: "Nanum Gothic", sans-serif;
+    --font-weight-headline: 300;
+    --font-family-headline: "Poppins", sans-serif;
+    --font-family: "Poppins", sans-serif;
 
     /* columns */
     --col-margin-bottom: .5rem; /* 8px */
     --col-space-between: 4%;
 
     /* container */
-    --container-background-color: #282828;
+    --container-background-color: #282a2a;
 
     /* inputs */
     --input-color: var(--dark-grey);
@@ -52,8 +53,8 @@
     --dealerSelectionIcon-badge-size: 1.88rem; /* 30px */
 
     /* page layout */
-    --max-page-width: 1234px;
-    --min-page-width: 20rem; /* 320px */
+    --max-page-width: 860px;
+    --min-page-width: 320px;
 }
 
 /*

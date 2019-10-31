@@ -8,5 +8,10 @@
     "image_LogoM": {
         "src": "/assets/img/logo_fb_mobile.svg",
         "alt": "Logo FrontendBoilerplate"
+    },
+    "address": {
+        "line1": "Riccardo Krone",
+        "line2": "Stargarder Str. 80 10437 Berlin, Germany",
+        "line3": "0176 – 248 50 20 riccardo.krone@gmail.com"
     }
 }

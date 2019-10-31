@@ -1,8 +1,12 @@
 {
     "resourceType": "modules/mainText",
     "title": {
-        "line1": "FrontendStarter",
-        "line2": ""
+        "line1": "Riccardo Krone",
+        "line2": "Frontend Development"
     },
-    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    "text": { 
+        "para1": "Kreativer und vielseitiger Frontend Entwickler mit langjähriger Berufserfahrung in der Entwicklung und Konzeption von plattformunabhängigen Web Apps. Spezialisiert auf JavaScript und die Umsetzung  von responsiven Designs.",
+        "para2": "Starke UI/UX-Design Affinität.",
+        "para3": "Vielseitige Erfahrung in Arbeitsumgebungen für Digitalagenturen. Fokussiert auf die Unterstützung agiler Teams bei der UI-Entwicklung für CMS-Websites oder clientseitiger Web Apps."
+    }
 }

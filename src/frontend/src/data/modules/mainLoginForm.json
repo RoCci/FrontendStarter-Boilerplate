@@ -1,14 +1,17 @@
 {
     "resourceType": "modules/mainLoginForm",
-    "errors": {
-        "json": "partials/errors"
-    },
-    "loginData": {
-        "json": "partials/loginData"
-    },
-    "buttonText": "Send button",
-    "forgottenPassword": {
-      "text": "Password reset"
-    },
-    "requireText": ""
+    "contactLinks": {
+        "link1": {
+          "linktext": "<strong>linkedin.com</strong>/in/development-riccardokrone",
+          "link": "http://linkedin.com/in/development-riccardokrone"
+        },
+        "link2": {
+          "linktext": "<strong>xing.com</strong>/profile/Riccardo_Krone",
+          "link": "http://xing.com/profile/Riccardo_Krone"
+        },
+        "link3": {
+          "linktext": "<strong>github</strong>.com/RoCci",
+          "link": "http://github.com/RoCci"
+        }
+      }
 }

@@ -30,7 +30,6 @@
 }
 
 .m-footer nav .noPipe {
-    border-right: none;
 }
 
 .m-footer nav a.blockDisplay {
@@ -107,6 +106,7 @@ nav.m-top--anchor a {
     }
 
     .m-footer nav .noPipe {
-        border-right: 1px solid #999;
+        /* border-right: 1px solid #999; */
+        border-right: none;
     }
 }

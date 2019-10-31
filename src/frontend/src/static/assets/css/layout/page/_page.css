@@ -30,7 +30,8 @@
 
 .page__main {
     display: block;
-    overflow: hidden;
+
+    /* overflow: hidden; */
 }
 
 .m-mainLeftCol {
@@ -44,7 +45,6 @@
 }
 
 .m-mainRightCol {
-    background-color: #d0d9d6;
     max-width: none;
     min-width: unset;
     padding-top: 10px;
@@ -57,7 +57,7 @@
     .page__footer,
     .main_navigation,
     .page_partner--image {
-        margin: 0 auto;
+        margin: 0;
         max-width: var(--max-page-width);
         padding: 0;
         position: relative;
@@ -92,13 +92,14 @@
     }
 
     .m-mainLeftCol {
-        flex-basis: 72.6%;
+        flex-basis: 55%;
         height: 100%;
-        max-height: 654px;
+
+        /* max-height: 654px; */
         position: relative;
     }
 
     .m-mainRightCol {
-        flex-basis: 27%;
+        flex-basis: 44%;
     }
 }
