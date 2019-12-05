@@ -16,3 +16,4 @@ src/frontend/dist/data/
 src/frontend/dist/views/
 # generated assets
 /src/frontend/src/views/page/icons.handlebars
+node_modules
